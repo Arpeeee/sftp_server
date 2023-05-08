@@ -1,0 +1,5 @@
+docker run \
+    -v /home/brian/sftp/health:/home/user/share \
+    -p 2222:22 -d atmoz/sftp \
+    user:1111:::/share
+
